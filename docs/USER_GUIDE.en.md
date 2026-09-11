@@ -8,6 +8,8 @@ The app lets a MIDI controller in Mackie Control / MCU mode operate the Windows 
 
 It is not a device-specific driver. iCON P1-Nano has been physically verified. Other MCU controllers use the same core protocol, but their optional buttons, displays, and lamps may differ.
 
+![Windows Fader Bridge for Mackie Control overview](images/overview.png)
+
 ## Requirements
 
 - Windows 11, 64-bit.
@@ -32,6 +34,8 @@ The project does not currently have a paid Windows code-signing certificate, so 
 4. Use the Generic Mackie Control profile for ordinary devices, or the P1-Nano profile for that model.
 5. Keep touch protection enabled and save. Auto-connect is on by default; manual mode uses **Connect device**.
 
+![Device and MIDI port settings](images/devices.png)
+
 Do not let Cubase, another DAW, and this app open the same MIDI port pair at the same time. P1-Nano can place Cubase and Windows control on separate DAW layers; use the dedicated port pair selected for the Windows layer.
 
 ## Default controls
@@ -50,6 +54,8 @@ Closed applications leave the online list and new applications join automaticall
 ## Custom buttons and encoders
 
 Use **Button mapping**, **Encoder mapping**, and **Jog & directions** to select a physical control and assign a Windows, media, window, or audio command. While learning controls on the selected device, recognized input is previewed and not executed.
+
+![Button learning and command assignment](images/mapping.png)
 
 Left, right, and press actions of encoders 3–8 are independent. Ordinary Jog, Move, and Zoom are also assigned separately; Navi / Focus retain their native device meaning.
 

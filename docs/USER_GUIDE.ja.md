@@ -8,6 +8,8 @@ Mackie Control / MCU モードの MIDI コントローラーから Windows オ�
 
 特定機種専用のドライバーではありません。iCON P1-Nano では実機確認済みです。他の MCU コントローラーも基本プロトコルは共通ですが、追加ボタン、ディスプレイ、ランプの動作は異なる場合があります。
 
+![Windows Fader Bridge for Mackie Control の概要画面](images/overview.png)
+
 ## 動作条件
 
 - 64 ビット版 Windows 11。
@@ -32,6 +34,8 @@ EuControl、Avid ソフトウェア、仮想 MIDI ケーブル、開発ツール
 4. 通常は Generic Mackie Control、P1-Nano では専用プロファイルを選びます。
 5. タッチ保護を有効のまま保存します。自動接続は既定で有効です。手動モードでは **接続** を押します。
 
+![デバイスと MIDI ポートの設定](images/devices.png)
+
 Cubase、他の DAW、本アプリで同じ MIDI ポートを同時に使用しないでください。P1-Nano では Cubase と Windows 操作を別の DAW レイヤーに分け、Windows 用に選んだ専用ポートを使えます。
 
 ## 既定の操作
@@ -50,6 +54,8 @@ Cubase、他の DAW、本アプリで同じ MIDI ポートを同時に使用し�
 ## ボタンとエンコーダーのカスタマイズ
 
 **ボタン割り当て**、**エンコーダー割り当て**、**Jog と方向**で物理操作子を選び、Windows、メディア、ウィンドウ、オーディオのコマンドを割り当てます。学習中、選択中のデバイスから認識した入力はプレビューだけ行い、コマンドは実行しません。
+
+![ボタン学習とコマンド割り当て](images/mapping.png)
 
 エンコーダー 3～8 は左回転、右回転、押下を個別に設定できます。通常 Jog、Move、Zoom も独立です。Navi / Focus は機器本来の動作を保持します。
 

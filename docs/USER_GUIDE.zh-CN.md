@@ -8,6 +8,8 @@
 
 它不是某一款设备的专用驱动。iCON P1-Nano 已经过实机验证；其他 MCU 控制器的基本协议相同，但额外按键、屏幕和灯光可能不同。
 
+![Windows Fader Bridge for Mackie Control 总览页](images/overview.png)
+
 ## 使用前准备
 
 - Windows 11 64 位。
@@ -32,6 +34,8 @@
 4. 普通设备选择“通用 Mackie Control”；P1-Nano 可选择专用配置。
 5. 保留“触摸保护”，保存设备。默认会自动连接；手动模式下点击“连接设备”。
 
+![设备与 MIDI 端口设置](images/devices.png)
+
 不要让 Cubase、其他 DAW 和本程序同时占用同一对 MIDI 端口。P1-Nano 可以把 Cubase 与 Windows 控制放在不同 DAW 层；Windows 层使用你为本程序选定的独立端口。
 
 ## 默认操作
@@ -50,6 +54,8 @@
 ## 自定义按键和旋钮
 
 在 **按键分配**、**旋钮分配**、**Jog 与方向** 页面选择实体控件，再从命令列表中分配 Windows、媒体、窗口或音频功能。编辑当前设备时，识别到的按键只用于学习，不会同时执行命令。
+
+![按键学习与命令分配](images/mapping.png)
 
 旋钮 3–8 的左转、右转、按下可以分别分配。普通 Jog、Move 与 Zoom 也分别设置；Navi / Focus 保留设备原本语义。
 
