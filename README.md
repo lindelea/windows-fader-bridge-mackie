@@ -6,11 +6,20 @@ Control the Windows audio mixer from a Mackie Control / MCU-compatible MIDI cont
 
 **[Download v1.0.0](https://github.com/lindelea/windows-fader-bridge-mackie/releases/latest)**
 
+No build tools are required. Download the installer and connect your controller.
+
 [简体中文使用手册](docs/USER_GUIDE.zh-CN.md) ・ [English User Guide](docs/USER_GUIDE.en.md) ・ [日本語ユーザーガイド](docs/USER_GUIDE.ja.md)
 
 ![Application overview](docs/images/overview.png)
 
 Use motor faders, encoders and buttons for Windows output devices, input devices and individual applications. The app includes configurable button, encoder and Jog/Move/Zoom assignments, live meters and media information.
+
+## Windows volume mixer for Mackie Control / MCU
+
+- Mix individual Windows applications from a MIDI control surface.
+- Control the Windows master output, inputs, pan, mute, and solo.
+- Use live motor-fader, LED, display, and meter feedback.
+- Configure Windows commands without scripts or virtual MIDI software.
 
 Requirements: Windows 11 x64 and a controller with Mackie Control / MCU mode. No Avid software is required. iCON P1-Nano has been physically verified; other MCU controllers may differ in their optional controls and displays.
 

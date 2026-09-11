@@ -13,3 +13,6 @@ First public user release. Includes a Windows 11 x64 installer, English/Chinese 
 一般ユーザー向け初回正式リリースです。Windows 11 x64 インストーラー、中英対応アプリ画面、中英日ユーザーガイド、Windows オーディオのリアルタイム操作、メーター、再生情報、ボタン／エンコーダー／Jog・Move・Zoom の割り当てを収録しています。iCON P1-Nano で実機確認済みで、汎用 MCU プロファイルにも対応します。
 
 The installer and application are currently unsigned. Verify the SHA-256 value shown below after downloading.
+
+`Windows-Fader-Bridge-for-Mackie-Control-v1.0.0-Setup-x64.exe`  
+SHA-256: `2001C1E94E5064AF5D6765A1EC148CFF29DF61721893C12816A02E2B763D495B`
