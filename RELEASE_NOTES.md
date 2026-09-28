@@ -1,3 +1,24 @@
+# v1.0.1
+
+## 简体中文
+
+修复启用触摸保护时，控制器的实体推子可能在用户没有操作、Windows 音量仍然正确的情况下停在错误位置的问题。当未触摸的推子回报位置与 Windows 当前音量不一致时，桥接器会短暂等待可能稍晚到达的触摸消息；确认没有触摸后，仅重新发送正确的电机位置，不会改动 Windows 音量。正常电机回声不会触发重复发送，也没有加入周期性刷新。
+
+## English
+
+Fixes a physical fader that could remain at an incorrect position while touch protection was enabled, even though the user had not touched it and the Windows volume was still correct. If an untouched fader reports a position that disagrees with Windows, the bridge briefly waits for a possibly delayed touch message, then resends only the authoritative motor position. Windows volume is not changed, matching motor echoes stay silent, and no periodic refresh is added.
+
+## 日本語
+
+タッチ保護が有効な状態で、ユーザーが操作しておらず Windows の音量も正しいのに、実機フェーダーだけが誤った位置に残ることがある問題を修正しました。未タッチのフェーダーが Windows と異なる位置を通知した場合、遅れて届く可能性のあるタッチ信号を短時間待ち、タッチがなければ正しいモーター位置だけを再送します。Windows の音量は変更せず、正常なモーターエコーによる再送ループや周期的な更新も追加しません。
+
+The installer and application are currently unsigned. Verify the SHA-256 value shown below after downloading.
+
+`Windows-Fader-Bridge-for-Mackie-Control-v1.0.1-Setup-x64.exe`
+SHA-256: `32A309200423CC7805736ABE6D9659F38CFFD3405D6408FEFA45348E6165950A`
+
+---
+
 # v1.0.0
 
 ## 简体中文
