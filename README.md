@@ -4,7 +4,7 @@
 
 <p align="center"><a href="#简体中文">简体中文</a> ・ <a href="#english">English</a> ・ <a href="#日本語">日本語</a></p>
 
-<p align="center"><strong><a href="https://github.com/lindelea/windows-fader-bridge-mackie/releases/latest">下载 / Download / ダウンロード v1.0.1</a></strong></p>
+<p align="center"><strong><a href="https://github.com/lindelea/windows-fader-bridge-mackie/releases/latest">下载 / Download / ダウンロード v1.0.2</a></strong></p>
 
 ![Windows Fader Bridge for Mackie Control overview](docs/images/overview.png)
 
@@ -43,4 +43,4 @@ Mackie Control / MCU モードの MIDI コントローラーから、Windows の
 
 ## License and source ・ 许可与源代码 ・ ライセンスとソース
 
-This user-facing repository contains downloads and manuals. The exact v1.0.1 source is in the [development project](https://github.com/lindelea/windows-fader-bridge/tree/windows-mackie-v1.0.1). Licensed under [MPL 2.0](LICENSE). Mackie Control is a protocol name; this independent project is not affiliated with or endorsed by any controller manufacturer.
+This user-facing repository contains downloads and manuals. The exact v1.0.2 source is in the [development project](https://github.com/lindelea/windows-fader-bridge/tree/windows-mackie-v1.0.2). Licensed under [MPL 2.0](LICENSE). Mackie Control is a protocol name; this independent project is not affiliated with or endorsed by any controller manufacturer.
