@@ -1,3 +1,33 @@
+# v1.0.3
+
+## 简体中文
+
+修复共享播放器读取模块中，播放进度对象暂时缺失时可能崩溃的问题，并加强播放状态、控制信息和会话切换时的安全处理。部分显示信息不可用时，仍保留可用的播放操作；可选时间或播放速率读取失败时，不会丢失已经有效的进度和跳转能力。MIDI 推子、旋钮、触摸保护和峰值反馈逻辑不变，不增加人为操作延迟。
+
+退出旧版后覆盖安装即可，设备、端口与命令设置保留。这是应用程序稳定性修正，不代表已证实解决 Windows 系统蓝屏。
+
+## English
+
+Fixes a potential crash in the shared media reader when a player temporarily supplies no timeline, and safely handles missing playback/control information and changing sessions. Available playback controls are retained when display information is missing. Optional timing or playback-rate failures no longer discard valid position and seeking information. MIDI fader, encoder, touch-protection and meter behavior is unchanged, with no deliberate control latency added.
+
+Close the old version and install over it; your device, port and command settings are preserved. This is an application stability update, not a confirmed fix for Windows blue screens.
+
+## 日本語
+
+共有プレーヤー読み取り処理で、再生位置情報が一時的に欠けた場合のクラッシュを修正し、再生状態・操作情報の欠落やセッション切り替えも安全に扱います。一部の表示情報がなくても利用可能な再生操作を維持し、任意の時間情報や再生速度の取得失敗で、有効な再生位置やシーク機能を失わないようにしました。MIDI フェーダー、エンコーダー、タッチ保護、メーターの動作は変更せず、意図的な操作遅延も追加していません。
+
+旧版を終了してから上書きインストールしてください。デバイス、ポート、コマンドの設定は引き継がれます。これはアプリの安定性更新であり、Windows のブルースクリーンを解消したと確認された修正ではありません。
+
+The installer and application are currently unsigned. Verify the SHA-256 value shown below after downloading.
+
+`Windows-Fader-Bridge-for-Mackie-Control-v1.0.3-Setup-x64.exe`
+SHA-256: `25F089C64A935DE402AC7AC285E027DA31D92F4836C0BE6A811AF7FEDD427DF4`
+
+- [User guides / 使用手册 / ユーザーガイド](https://github.com/lindelea/windows-fader-bridge-mackie)
+- [Exact source for v1.0.3](https://github.com/lindelea/windows-fader-bridge/tree/windows-mackie-v1.0.3)
+
+---
+
 # v1.0.2
 
 ## 简体中文
